@@ -1,0 +1,11 @@
+create a file/module with name television 
+- inside this create a class called Television 
+- add a constructor 
+- in constructor take brand name as parameter
+- model name , size of the tv as parameters  
+- define the following methods 
+1) swith_on -> prints TV power on 
+2) swith_off -> prints TV shutdown 
+3) show_details -> print the brand name , model name, size 
+- import the module create few objects of Television and 
+show thier details 
