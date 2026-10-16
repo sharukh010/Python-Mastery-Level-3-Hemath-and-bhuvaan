@@ -1,3 +1,4 @@
+Task-1: 
 create a class named Laptop 
 variables:
 - brand 
@@ -10,3 +11,7 @@ methods (functions):
 ex: my_laptop.typing("hello") -> you have typed "hello"
 -show_battery_percentage - it should print the battery percentage 
 -charging -> charging you're laptop 
+Task-2 
+create a display method in laptop class 
+which prints specifications of a laptop 
+create a parameterized constructor and copy constructor
