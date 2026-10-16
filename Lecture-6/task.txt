@@ -1,0 +1,12 @@
+create a class named Laptop 
+variables:
+- brand 
+- processor 
+- screen size - 14 / 15 / 16 
+- operating system - Mac os / Windows / Linux 
+- batter percentage - 100 
+methods (functions): 
+-typing - it should take some text and print it 
+ex: my_laptop.typing("hello") -> you have typed "hello"
+-show_battery_percentage - it should print the battery percentage 
+-charging -> charging you're laptop 
