@@ -1,0 +1,24 @@
+In python classes we usually use 3 types of methods 
+ex: 
+old approach: 
+car.name = "BMW" # setting the property value 
+print(car.name) # get the property value 
+new approach: 
+car.set_name("BMW")
+print(car.get_name())
+
+1) getters 
+- this methods are used to get the property(variables) values of an object/class 
+- this methods have a prefix of get_xyz 
+- they usually don't take any parameter and they return the value 
+- getters usually don't make any changes to the properties (variables) 
+2) setters 
+- this methods are used to set the property (variables) values of an object/class 
+- this methods have a prefix of set_xyz 
+- they usually take the value to be set as a parameter and they don't return anything
+- they make changes to the properties (variables)  
+3) action 
+- this methods are used to perform some kind of action 
+ex: 
+square.area() 
+bike.start() 
