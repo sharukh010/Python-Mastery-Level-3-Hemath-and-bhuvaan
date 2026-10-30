@@ -16,7 +16,6 @@ A company wants to develop a simple employee management system using Python OOP 
 2. Create a child class called `Developer` that inherits from `Employee`.
    - Add an additional attribute `programming_language`.
    - Use the parent class constructor to initialize the inherited attributes.
-   - Override the `calculate_salary()` method.
    - A developer receives a bonus of ₹5,000 in addition to their basic salary.
    - Create a method `display_developer_details()` to display all employee details, including programming language and final salary.
 3. Create an object of the `Developer` class and demonstrate all the methods.
