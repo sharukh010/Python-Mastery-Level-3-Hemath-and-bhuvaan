@@ -35,7 +35,6 @@ Final Salary: 45000
 ### Constraints
 
 - Use `super()` to call the parent constructor.
-- Use method overriding.
 - Do not duplicate inherited attributes in the child class.
 - Follow proper OOP principles.
 
