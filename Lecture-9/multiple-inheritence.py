@@ -1,5 +1,4 @@
 import time 
-import os 
 class Watch: 
     def __init__(self,model,price):
         self.model = model 
