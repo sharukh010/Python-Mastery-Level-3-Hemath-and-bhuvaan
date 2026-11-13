@@ -1,0 +1,21 @@
+Multi level inheritence: 
+Grand Parent 
+     | 
+     V 
+   Parent
+     |
+     V 
+   Child 
+
+
+CalculatorV1 
+- add 
+- sub 
+
+CalculatorV2 
+- multiplication 
+- division 
+
+CalculatorV3 
+- power 
+- modulo division 
