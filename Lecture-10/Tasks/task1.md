@@ -89,7 +89,9 @@ Implement the following exceptions:
 | Rental days contain text instead of a number | ValueError                                    |
 | model is not string                  |Value error  |
 | brand is not string                      |Value error |
-| Invalid rental price                         | ValueError                                    |
+| Invalid rental price   (0 or negative)                      | ValueError                                    |
+| Vehicle is already rented | Custom Exception: VehicleNotAvailableError | 
+| Rental days exceed 30 | Custom Exception: RentalPeriodExceededError | 
 
 Use:
 
