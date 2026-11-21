@@ -7,27 +7,42 @@ class Number:
         else: 
             raise ValueError(f"cannot store {type(value)}. only (int,float) are supported")
     def __add__(self,other): 
+        if isinstance(other,(int,float)): 
+            return Number(self.value + other)
         return Number(self.value + other.value)
 
-    def __sub__(self,other): 
+    def __sub__(self,other):
+        if isinstance(other,(int,float)): 
+            return Number(self.value - other) 
         return Number(self.value - other.value)
 
     def __mul__(self,other): 
+        if isinstance(other,(int,float)): 
+            return Number(self.value * other.value)
         return Number(self.value * other.value)
 
     def __truediv__(self,other): 
-        if other.value == 0: 
+        if isinstance(other,(int,float)):
+            if other == 0: 
+                raise ZeroDivisionError("cannot divide with zero") 
+            return Number(self.value / other)
+        if  other.value == 0: 
             raise ZeroDivisionError("cannot divide with zero")
-        
         return Number(self.value / other.value)
 
     def __mod__(self,other): 
+        if isinstance(other,(int,float)): 
+                    return Number(self.value % other)
         return Number(self.value % other.value)
 
     def __floordiv__(self, other):
+        if isinstance(other,(int,float)): 
+            return Number(self.value // other)
         return Number(self.value // other.value)
 
     def __pow__(self, other):
+        if isinstance(other,(int,float)): 
+            return Number(self.value ** other)
         return Number(self.value ** other.value)
 
     # comparision operators -> returns boolean values  
@@ -68,5 +83,4 @@ num2 = Number(20)
 # print(num1 <= num2)
 # print(num1 > num2)
 # print(num1 >= num2)
-
-
+print(num1 / 4)
