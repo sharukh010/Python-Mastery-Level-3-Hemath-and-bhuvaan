@@ -27,13 +27,16 @@ class Child(Parent):
     def display(self,name): 
         print(f"Child Name: {name}")
 
-# demo = Polymorphism()
+demo = Polymorphism()
+
+
+# every class by default inherits object class
 # #method overloading
 # demo.display("alex","bob","charlie")
 # demo.display("david")
 
-parent = Parent()
-parent.display("Alex")
-child = Child()
-child.display("Bob")
-child.hello()
+# parent = Parent()
+# parent.display("Alex")
+# child = Child()
+# child.display("Bob")
+# child.hello()
